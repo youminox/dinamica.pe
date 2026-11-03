@@ -3,6 +3,8 @@
 import { useState, FormEvent } from "react";
 import { content } from "@/content/content";
 
+const SUPABASE_URL = "https://hwsescfdnkogoaxqplht.supabase.co";
+
 export default function Contact() {
   const [formData, setFormData] = useState({
     name: "",
@@ -21,7 +23,7 @@ export default function Contact() {
     setError(null);
 
     try {
-      const res = await fetch("/api/contact/", {
+      const res = await fetch(`${SUPABASE_URL}/functions/v1/send-contact-dinamica`, {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify(formData),

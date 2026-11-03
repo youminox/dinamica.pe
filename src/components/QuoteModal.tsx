@@ -3,6 +3,8 @@
 import React, { useState, useCallback } from "react";
 import { content } from "@/content/content";
 
+const SUPABASE_URL = "https://hwsescfdnkogoaxqplht.supabase.co";
+
 const SERVICE_TYPES = [
   { value: "limpieza", label: "Limpieza de Oficinas y Empresas" },
   { value: "saneamiento", label: "Saneamiento Ambiental y Desinfección" },
@@ -252,7 +254,7 @@ export default function QuoteModal({
     setError(null);
     setResult(null);
     try {
-      const res = await fetch("/api/quote/", {
+      const res = await fetch(`${SUPABASE_URL}/functions/v1/generate-quote-dinamica`, {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify(form),
