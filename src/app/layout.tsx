@@ -1,6 +1,5 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
-import Script from "next/script";
 import "./globals.css";
 import { content } from "@/content/content";
 
@@ -54,6 +53,14 @@ export default function RootLayout({
   return (
     <html lang="es" className={inter.variable}>
       <head>
+        {/* Google AdSense verification & script in <head> */}
+        <meta name="google-adsense-account" content="ca-pub-1070738569472471" />
+        <script
+          async
+          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1070738569472471"
+          crossOrigin="anonymous"
+        ></script>
+
         {/* Preload hero image for fast LCP */}
         <link
           rel="preload"
@@ -168,13 +175,6 @@ export default function RootLayout({
       </head>
       <body className="font-sans antialiased">
         {children}
-
-        {/* Google AdSense (migrated from WordPress ads.txt publisher ID) */}
-        <Script
-          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1070738569472471"
-          strategy="lazyOnload"
-          crossOrigin="anonymous"
-        />
       </body>
     </html>
   );
