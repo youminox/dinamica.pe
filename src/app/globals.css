@@ -1,0 +1,120 @@
+@import "tailwindcss";
+@plugin "@tailwindcss/typography";
+
+@font-face {
+  font-family: "Prototype";
+  src: url("/fonts/Prototype.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@theme inline {
+  --color-primary: #0767db;
+  --color-primary-dark: #03428e;
+  --color-accent: #e7ed00;
+  --color-accent-dark: #c5cb00;
+  --color-brand-black: #1a1a1a;
+  --color-brand-gray: #4b5563;
+  --color-brand-silver: #c1c4c7;
+  --color-light-bg: #f4f8fd;
+  --color-border-light: #e2e8f0;
+  --font-sans: "Inter", "Helvetica Neue", Helvetica, system-ui, -apple-system, sans-serif;
+  --font-display: "Prototype", "Inter", system-ui, sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 5rem;
+}
+
+body {
+  background: #ffffff;
+  color: var(--color-brand-black);
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden;
+}
+
+::selection {
+  background: var(--color-primary);
+  color: #ffffff;
+}
+
+*:focus-visible {
+  outline: 2px solid var(--color-primary);
+  outline-offset: 2px;
+}
+
+/* Custom Animations & High-Impact Visual Effects */
+@keyframes floatSlow {
+  0%, 100% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+}
+
+@keyframes floatDelayed {
+  0%, 100% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-8px);
+  }
+}
+
+@keyframes pulseGlow {
+  0%, 100% {
+    box-shadow: 0 0 0 0 rgba(7, 103, 219, 0.4), 0 10px 25px -5px rgba(7, 103, 219, 0.35);
+  }
+  50% {
+    box-shadow: 0 0 0 8px rgba(7, 103, 219, 0), 0 15px 30px -5px rgba(3, 66, 142, 0.5);
+  }
+}
+
+@keyframes shimmerSweep {
+  0% {
+    transform: translateX(-120%) skewX(-15deg);
+  }
+  100% {
+    transform: translateX(220%) skewX(-15deg);
+  }
+}
+
+.animate-float-slow {
+  animation: floatSlow 5s ease-in-out infinite;
+}
+
+.animate-float-delayed {
+  animation: floatDelayed 6s ease-in-out 1.5s infinite;
+}
+
+.animate-pulse-glow {
+  animation: pulseGlow 3s infinite;
+}
+
+.bg-grid-pattern {
+  background-size: 40px 40px;
+  background-image: 
+    linear-gradient(to right, rgba(7, 103, 219, 0.05) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(7, 103, 219, 0.05) 1px, transparent 1px);
+}
+
+.bg-dots-pattern {
+  background-image: radial-gradient(rgba(7, 103, 219, 0.14) 1.5px, transparent 1.5px);
+  background-size: 28px 28px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
