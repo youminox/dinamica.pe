@@ -118,11 +118,6 @@ const nextConfig: NextConfig = {
         destination: "/",
         permanent: true,
       },
-      {
-        source: "/blog/:slug([^/]+[^/])",
-        destination: "/blog/:slug/",
-        permanent: true,
-      },
     ];
   },
 };
