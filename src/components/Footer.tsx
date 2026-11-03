@@ -133,11 +133,11 @@ export default function Footer() {
           </div>
         </div>
 
-        {/* Cobertura por Distritos en Lima (SEO Internal Linking) */}
-        <div className="mt-10 border-t border-gray-100 pt-6">
-          <div className="flex flex-wrap items-center justify-center gap-x-4 gap-y-2 text-xs text-brand-gray">
+        {/* Cobertura por Distritos en Lima y Ciudades del Perú (SEO Internal Linking) */}
+        <div className="mt-10 space-y-3 border-t border-gray-100 pt-6">
+          <div className="flex flex-wrap items-center justify-center gap-x-3.5 gap-y-1.5 text-xs text-brand-gray">
             <span className="font-bold text-brand-black uppercase tracking-wider">
-              Cobertura en Lima:
+              Distritos de Lima:
             </span>
             <a
               href="/blog/servicio-de-limpieza-de-oficinas-en-santiago-de-surco/"
@@ -182,6 +182,41 @@ export default function Footer() {
             </a>
             <span>·</span>
             <a
+              href="/blog/limpieza-de-oficinas-y-edificios-comerciales-en-lince/"
+              className="transition-colors hover:text-primary"
+            >
+              Lince
+            </a>
+            <span>·</span>
+            <a
+              href="/blog/servicio-de-limpieza-para-instituciones-y-oficinas-en-jesus-maria/"
+              className="transition-colors hover:text-primary"
+            >
+              Jesús María
+            </a>
+            <span>·</span>
+            <a
+              href="/blog/limpieza-de-oficinas-centros-comerciales-e-institutos-en-san-miguel/"
+              className="transition-colors hover:text-primary"
+            >
+              San Miguel
+            </a>
+            <span>·</span>
+            <a
+              href="/blog/limpieza-de-sedes-corporativas-e-industriales-en-cercado-de-lima/"
+              className="transition-colors hover:text-primary"
+            >
+              Cercado de Lima
+            </a>
+            <span>·</span>
+            <a
+              href="/blog/limpieza-industrial-y-de-oficinas-en-chorrillos-y-lurin/"
+              className="transition-colors hover:text-primary"
+            >
+              Chorrillos y Lurín
+            </a>
+            <span>·</span>
+            <a
               href="/blog/limpieza-industrial-y-de-oficinas-administrativas-en-ate/"
               className="transition-colors hover:text-primary"
             >
@@ -193,6 +228,46 @@ export default function Footer() {
               className="transition-colors hover:text-primary"
             >
               Callao
+            </a>
+          </div>
+
+          <div className="flex flex-wrap items-center justify-center gap-x-3.5 gap-y-1.5 text-xs text-brand-gray">
+            <span className="font-bold text-brand-black uppercase tracking-wider">
+              Ciudades del Perú:
+            </span>
+            <a
+              href="/blog/servicio-de-limpieza-de-oficinas-y-empresas-en-arequipa/"
+              className="transition-colors hover:text-primary"
+            >
+              Arequipa
+            </a>
+            <span>·</span>
+            <a
+              href="/blog/empresa-de-limpieza-para-oficinas-e-industrias-en-trujillo/"
+              className="transition-colors hover:text-primary"
+            >
+              Trujillo
+            </a>
+            <span>·</span>
+            <a
+              href="/blog/limpieza-de-oficinas-corporativas-y-contratistas-mineros-en-huaraz/"
+              className="transition-colors hover:text-primary"
+            >
+              Huaraz
+            </a>
+            <span>·</span>
+            <a
+              href="/blog/servicio-de-limpieza-para-empresas-agroindustriales-y-oficinas-en-ica/"
+              className="transition-colors hover:text-primary"
+            >
+              Ica
+            </a>
+            <span>·</span>
+            <a
+              href="/blog/limpieza-de-oficinas-y-empresas-en-piura-saneamiento-y-mantenimiento/"
+              className="transition-colors hover:text-primary"
+            >
+              Piura
             </a>
           </div>
         </div>

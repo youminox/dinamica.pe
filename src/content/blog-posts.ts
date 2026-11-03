@@ -15,6 +15,7 @@ export interface BlogPost {
 
 export const BLOG_CATEGORIES: Record<string, string> = {
   "distritos-de-lima": "📍 Distritos de Lima",
+  "ciudades-del-peru": "🇵🇪 Ciudades del Perú",
   "consejos-de-limpieza-para-oficinas": "Consejos de Limpieza para Oficinas",
   "importancia-de-la-desinfeccion-en-oficinas": "Desinfección en Oficinas",
   "prevencion-de-plagas-en-oficinas": "Prevención de Plagas",
@@ -32,7 +33,7 @@ export const BLOG_POSTS: BlogPost[] = [
     "title": "Servicio de Limpieza de Oficinas en Santiago de Surco: Cobertura para Centros Empresariales y Coworkings",
     "slug": "servicio-de-limpieza-de-oficinas-en-santiago-de-surco",
     "categorySlug": "distritos-de-lima",
-    "categoryName": "Distritos de Lima",
+    "categoryName": "📍 Distritos de Lima",
     "districtName": "Santiago de Surco",
     "keywords": [
       "limpieza de oficinas en santiago de surco",
@@ -52,7 +53,7 @@ export const BLOG_POSTS: BlogPost[] = [
     "title": "Limpieza de Oficinas Corporativas en San Isidro: Protocolos para el Centro Financiero y Torres Prime",
     "slug": "limpieza-de-oficinas-corporativas-en-san-isidro",
     "categorySlug": "distritos-de-lima",
-    "categoryName": "Distritos de Lima",
+    "categoryName": "📍 Distritos de Lima",
     "districtName": "San Isidro",
     "keywords": [
       "limpieza de oficinas en san isidro",
@@ -72,7 +73,7 @@ export const BLOG_POSTS: BlogPost[] = [
     "title": "Empresa de Limpieza para Oficinas, Consultoras y Showrooms en Miraflores",
     "slug": "empresa-de-limpieza-para-oficinas-y-locales-en-miraflores",
     "categorySlug": "distritos-de-lima",
-    "categoryName": "Distritos de Lima",
+    "categoryName": "📍 Distritos de Lima",
     "districtName": "Miraflores",
     "keywords": [
       "limpieza de oficinas en miraflores",
@@ -92,7 +93,7 @@ export const BLOG_POSTS: BlogPost[] = [
     "title": "Limpieza de Oficinas y Centros Médicos en San Borja: Bioseguridad y Gestión Administrativa",
     "slug": "limpieza-de-oficinas-y-centros-medicos-en-san-borja",
     "categorySlug": "distritos-de-lima",
-    "categoryName": "Distritos de Lima",
+    "categoryName": "📍 Distritos de Lima",
     "districtName": "San Borja",
     "keywords": [
       "limpieza de oficinas en san borja",
@@ -112,7 +113,7 @@ export const BLOG_POSTS: BlogPost[] = [
     "title": "Servicio de Limpieza para Empresas, Sedes Corporativas y Colegios en La Molina",
     "slug": "servicio-de-limpieza-para-empresas-y-colegios-en-la-molina",
     "categorySlug": "distritos-de-lima",
-    "categoryName": "Distritos de Lima",
+    "categoryName": "📍 Distritos de Lima",
     "districtName": "La Molina",
     "keywords": [
       "limpieza de oficinas en la molina",
@@ -132,7 +133,7 @@ export const BLOG_POSTS: BlogPost[] = [
     "title": "Limpieza de Edificios Corporativos y Oficinas en Magdalena del Mar: Protección contra Humedad Costera",
     "slug": "limpieza-de-edificios-corporativos-y-oficinas-en-magdalena",
     "categorySlug": "distritos-de-lima",
-    "categoryName": "Distritos de Lima",
+    "categoryName": "📍 Distritos de Lima",
     "districtName": "Magdalena del Mar",
     "keywords": [
       "limpieza de oficinas en magdalena del mar",
@@ -152,7 +153,7 @@ export const BLOG_POSTS: BlogPost[] = [
     "title": "Limpieza Industrial y de Oficinas Administrativas en Ate: Plantas, Almacenes y Sedes Corporativas",
     "slug": "limpieza-industrial-y-de-oficinas-administrativas-en-ate",
     "categorySlug": "distritos-de-lima",
-    "categoryName": "Distritos de Lima",
+    "categoryName": "📍 Distritos de Lima",
     "districtName": "Ate",
     "keywords": [
       "limpieza industrial y de oficinas en ate",
@@ -172,7 +173,7 @@ export const BLOG_POSTS: BlogPost[] = [
     "title": "Limpieza de Oficinas Logísticas, Agencias de Aduanas y Almacenes en el Callao",
     "slug": "limpieza-de-oficinas-logisticas-y-almacenes-en-el-callao",
     "categorySlug": "distritos-de-lima",
-    "categoryName": "Distritos de Lima",
+    "categoryName": "📍 Distritos de Lima",
     "districtName": "Callao",
     "keywords": [
       "limpieza de oficinas y almacenes en el callao",
@@ -186,6 +187,206 @@ export const BLOG_POSTS: BlogPost[] = [
     "imageUrl": "/posts-images/distrito-callao.jpg",
     "readTime": "8 min",
     "content": "<h2>El Callao: Operación Continua para el Hub Portuario, Aeroportuario y Aduanero del Perú</h2>\n<p>Con la modernización del <strong>Puerto del Callao</strong> y la expansión del nuevo <strong>Aeropuerto Internacional Jorge Chávez</strong>, la Provincia Constitucional del Callao y el corredor industrial colindante del Cercado de Lima (<strong>Av. Elmer Faucett, Av. Argentina, Av. Óscar R. Benavides / Colonial, Av. Néstor Gambetta y Av. Morales Duárez</strong>) concentran el corazón del comercio exterior peruano.</p>\n<p>Aquí operan agencias de aduanas, operadores logísticos 3PL, depósitos temporales, almacenes aduaneros, navieras, empresas de carga aérea y plantas industriales que trabajan bajo regímenes de alta exigencia y certificaciones internacionales como <strong>BASC y OEA (Operador Económico Autorizado)</strong>. En <strong>DINAMICA SERVICIO DE LIMPIEZA SAC</strong> ofrecemos un servicio de <a href=\"/servicios/limpieza-para-empresas/\">limpieza corporativa e industrial en el Callao</a> preparado para operaciones de alto tránsito y auditorías de seguridad.</p>\n\n<h2>Soluciones Especializadas para el Sector Logístico y Empresarial del Callao</h2>\n\n<h3>1. Limpieza de Oficinas de Comercio Exterior y Atención de Transportistas</h3>\n<p>Las oficinas de agencias de aduanas y centros logísticos en Av. Faucett o Av. Argentina tienen una dinámica intensa: áreas de <em>customer service</em>, módulos de atención documentaria a transportistas y despachadores, salas de monitoreo GPS/CCTV 24 horas y oficinas gerenciales:</p>\n<ul>\n  <li><strong>Mantenimiento de zonas de alto tránsito peatonal:</strong> Limpieza y desinfección constante de pisos en áreas de recepción documentaria, ventanillas de despacho y servicios higiénicos de personal externo e interno.</li>\n  <li><strong>Control de polvo pesado y salinidad portuaria:</strong> Protección de equipos informáticos, servidores y mobiliario frente a la combinación de humedad marina chalaca y partículas del transporte pesado.</li>\n  <li><strong>Flexibilidad de turnos (diurno, vespertino y 24/7):</strong> Adaptamos la dotación de operarios a los turnos rotativos de tus operaciones portuarias o aeroportuarias.</li>\n</ul>\n\n<h3>2. Saneamiento Ambiental Obligatorio para Almacenes y Depósitos (Certificación DIGESA)</h3>\n<p>Los almacenes aduaneros, depósitos simples y centros de distribución en el Callao están sujetos a estrictas inspecciones sanitarias y aduaneras. Nuestra división de <a href=\"/servicios/saneamiento-ambiental/\">Saneamiento Ambiental</a> ejecuta y certifica:</p>\n<ul>\n  <li><strong>Control Integral de Plagas y Desratización Perimetral:</strong> Instalación, mapeo y monitoreo periódico de estaciones cebaderas numeradas en almacenes para impedir el ingreso de roedores y proteger la mercadería almacenada.</li>\n  <li><strong>Fumigación (Desinsectación) y Desinfección ULV:</strong> Eliminación de insectos rastreros y voladores en naves logísticas, contenedores y oficinas.</li>\n  <li><strong>Limpieza y Desinfección de Cisternas y Tanques de Agua:</strong> Con entrega de certificado oficial vigente para inspecciones municipales y auditorías de calidad.</li>\n</ul>\n\n<h3>3. Personal Filtrado para Entornos con Certificación BASC y OEA</h3>\n<p>Sabemos que la seguridad de la cadena logística en el Callao no admite riesgos. Por ello, todo operario de <strong>DINÁMICA</strong> destacado en instalaciones portuarias, aeroportuarias o almacenes aduaneros pasa por verificación documentada de antecedentes policiales, penales y judiciales, se encuentra 100% en planilla formal con SCTR vigente y cumple estrictamente los controles de acceso y revisión patrimonial de tu empresa.</p>\n\n<h2>Corredores Empresariales e Industriales que Atendemos en el Callao</h2>\n<ul>\n  <li><strong>Eje Av. Elmer Faucett – Centro Aéreo Comercial – Tomás Valle – Quilca:</strong> Agencias de aduanas, operadores de carga aérea, couriers internacionales y oficinas corporativas.</li>\n  <li><strong>Eje Av. Argentina – Av. Colonial (Óscar R. Benavides) – Meiggs:</strong> Plantas industriales, centros logísticos, laboratorios y sedes administrativas.</li>\n  <li><strong>Eje Av. Néstor Gambetta – Oquendo – Ventanilla – Zona Portuaria:</strong> Depósitos temporales, terminales de almacenamiento, patios de contenedores y empresas navieras.</li>\n</ul>\n<p>Asegura la higiene, el cumplimiento normativo y la continuidad operativa de tu sede en el Callao con <strong>DINÁMICA</strong>. <a href=\"/contacto/\">Solicita tu cotización corporativa hoy mismo</a>.</p>"
+  },
+  {
+    "id": "distrito-lince-2026",
+    "title": "Limpieza de Oficinas y Edificios Comerciales en Lince: Planes para Empresas y Consultoras",
+    "slug": "limpieza-de-oficinas-y-edificios-comerciales-en-lince",
+    "categorySlug": "distritos-de-lima",
+    "categoryName": "📍 Distritos de Lima",
+    "districtName": "Lince",
+    "keywords": [
+      "limpieza de oficinas en lince",
+      "empresa de limpieza en lince lima",
+      "servicio de limpieza para consultoras y estudios contables lince",
+      "limpieza de edificios comerciales av arequipa arenales",
+      "personal de limpieza por horas o tiempo completo en lince"
+    ],
+    "excerpt": "Servicio de limpieza profesional en Lince para oficinas administrativas, estudios contables, notarías, centros médicos y edificios comerciales en el eje Av. Arequipa, Petit Thouars, Arenales y Risso.",
+    "publishedAt": "2026-11-03",
+    "imageUrl": "/posts-images/distrito-lince.jpg",
+    "readTime": "7 min",
+    "content": "<h2>Lince: El Conector Empresarial Estratégico junto al Centro Financiero</h2>\n<p>Por su ubicación privilegiada colindante con San Isidro y atravesada por arterias clave como la <strong>Av. Arequipa, Av. Petit Thouars, Av. Arenales, Av. Canevaro, Av. Julio C. Tello, el centro comercial Risso y el límite con Av. Javier Prado</strong>, el distrito de <strong>Lince</strong> concentra miles de oficinas de medianas empresas, estudios contables y tributarios, notarías, agencias de seguros, empresas de tecnología, consultorios odontológicos y edificios comerciales de alto movimiento diario.</p>\n<p>En <strong>DINAMICA SERVICIO DE LIMPIEZA SAC</strong> ofrecemos planes de <a href=\"/servicios/limpieza-para-empresas/\">limpieza de oficinas en Lince</a> diseñados tanto para pisos corporativos completos como para oficinas profesionales que requieren <strong>esquemas flexibles (medio tiempo, turnos de mañana o jornada completa)</strong> con personal 100% formal en planilla.</p>\n\n<h2>Soluciones Adaptadas a las Empresas de Lince</h2>\n\n<h3>1. Limpieza de Estudios Contables, Notarías y Oficinas con Alto Flujo Documental</h3>\n<p>En las oficinas administrativas y estudios profesionales de Lince, el manejo ordenado de archivos físicos, estanterías de carpetas y atención al público es constante:</p>\n<ul>\n  <li><strong>Control de polvo y ácaros en archivos y bibliotecas contables:</strong> Aspirado con filtro HEPA y limpieza en seco de estanterías metálicas y módulos de archivo sin deteriorar documentos ni alterar su orden.</li>\n  <li><strong>Higienización de módulos de atención y recepción:</strong> Desinfección continua de ventanillas, salas de espera, pasamanos y servicios higiénicos de clientes y colaboradores.</li>\n</ul>\n\n<h3>2. Edificios Comerciales Mixtos y Consultorios en el Corredor Arequipa – Arenales – Risso</h3>\n<p>El alto tránsito peatonal y vehicular de Lince genera ingreso continuo de hollín urbano por ventanas y accesos. Nuestros operarios aplican:</p>\n<ul>\n  <li>Limpieza profunda diaria de pisos de porcelanato, vinílico y parquet con productos neutros antideslizantes.</li>\n  <li>Desinfección de puntos críticos de contacto (botoneras de ascensor, manijas, teléfonos e intercomunicadores) con amonio cuaternario certificado por DIGESA.</li>\n  <li>Certificados oficiales de <a href=\"/servicios/saneamiento-ambiental/\">fumigación, desinfección y desratización</a> requeridos por la Municipalidad de Lince para la vigencia de licencias de funcionamiento e ITSE.</li>\n</ul>\n\n<h2>Zonas de Cobertura en Lince</h2>\n<ul>\n  <li><strong>Eje Av. Arequipa – Av. Petit Thouars – Av. Arenales:</strong> Edificios de oficinas, institutos, estudios jurídicos/contables y centros empresariales.</li>\n  <li><strong>Zona Risso – Julio C. Tello – Merino – Ignacio Merino:</strong> Clínicas especializadas, laboratorios, bancos, notarías y locales corporativos.</li>\n  <li><strong>Zona San Eugenio – Límite con San Isidro (Javier Prado / Paseo de la República):</strong> Torres empresariales, aseguradoras y sedes corporativas.</li>\n</ul>\n<p>Cotiza hoy mismo el servicio de limpieza para tu oficina en Lince desde nuestra página de <a href=\"/contacto/\">contacto</a>.</p>"
+  },
+  {
+    "id": "distrito-jesus-maria-2026",
+    "title": "Servicio de Limpieza para Instituciones, Gremios y Oficinas en Jesús María",
+    "slug": "servicio-de-limpieza-para-instituciones-y-oficinas-en-jesus-maria",
+    "categorySlug": "distritos-de-lima",
+    "categoryName": "📍 Distritos de Lima",
+    "districtName": "Jesús María",
+    "keywords": [
+      "limpieza de oficinas en jesus maria",
+      "empresa de limpieza en jesus maria lima",
+      "servicio de limpieza para instituciones y gremios empresariales",
+      "limpieza de edificios corporativos av salaverry cuba",
+      "saneamiento ambiental y limpieza en jesus maria"
+    ],
+    "excerpt": "Limpieza integral y mantenimiento para sedes institucionales, gremios empresariales, colegios profesionales, clínicas y oficinas corporativas en Jesús María (Av. Salaverry, Cuba, Escobedo y San Felipe).",
+    "publishedAt": "2026-11-03",
+    "imageUrl": "/posts-images/distrito-jesus-maria.jpg",
+    "readTime": "7 min",
+    "content": "<h2>Jesús María: El Distrito Institucional y Gremial de Lima Metropolitana</h2>\n<p><strong>Jesús María</strong> alberga una de las mayores concentraciones de <strong>instituciones públicas y privadas, gremios empresariales (como la Cámara de Comercio de Lima), colegios profesionales, embajadas, universidades, policlínicos y modernos edificios de oficinas</strong> a lo largo de la <strong>Av. Salaverry, Av. Gregorio Escobedo, Av. Cuba, Av. General Garzón, Av. Brasil, Av. Horacio Urteaga y el entorno de la Residencial San Felipe</strong>.</p>\n<p>Las organizaciones ubicadas en Jesús María reciben diariamente a cientos de asociados, colegiados, alumnos, pacientes y ejecutivos. En <strong>DINAMICA SERVICIO DE LIMPIEZA SAC</strong> brindamos un servicio de <a href=\"/servicios/limpieza-para-empresas/\">limpieza institucional y corporativa</a> enfocado en mantener impecables tanto las oficinas administrativas como los auditorios y salas de conferencias.</p>\n\n<h2>Protocolos Especializados para Sedes en Jesús María</h2>\n\n<h3>1. Mantenimiento de Auditorios, Salas de Capacitación y Sedes Gremiales</h3>\n<p>Los colegios profesionales, cámaras empresariales y centros de posgrado en Jesús María realizan eventos, seminarios y sesiones de directorio de forma permanente:</p>\n<ul>\n  <li><strong>Acondicionamiento pre y post evento:</strong> Aspirado silencioso de alfombras de auditorio, limpieza de butacas tapizadas, podios, pantallas y desinfección de micrófonos y mesas de honor.</li>\n  <li><strong>Atención intensiva de baterías de servicios higiénicos:</strong> Revisión horaria, desodorización y control de abastecimiento de consumibles en días de alta concurrencia.</li>\n</ul>\n\n<h3>2. Limpieza de Clínicas, Policlínicos y Consultorios (Corredor Gregorio Escobedo / Brasil)</h3>\n<p>Aplicamos protocolos de bioseguridad hospitalaria y corporativa con paños diferenciados por código de color, barrido húmedo y desinfectantes virucidas con registro sanitario DIGESA.</p>\n\n<h3>3. Cumplimiento Formal para Auditorías y Licitaciones Privadas</h3>\n<p>Entregamos mensualmente toda la documentación laboral de ley (planilla electrónica PLAME, constancias de pago de AFP/ONP, EsSalud y pólizas SCTR vigentes), garantizando cero contingencias solidarias para tu institución.</p>\n\n<h2>Principales Ejes Atendidos en Jesús María</h2>\n<ul>\n  <li><strong>Eje Av. Gregorio Escobedo – Residencial San Felipe – Av. Salaverry:</strong> Gremios empresariales, colegios profesionales, clínicas, embajadas y edificios corporativos.</li>\n  <li><strong>Eje Av. Cuba – Av. Arenales – Av. Petit Thouars:</strong> Organismos institucionales, cooperativas, notarías y oficinas administrativas.</li>\n  <li><strong>Eje Av. Brasil – Av. Garzón – Campo de Marte:</strong> Centros educativos, universidades, centros médicos y locales comerciales.</li>\n</ul>\n<p>Solicita una evaluación técnica gratuita para tu sede en Jesús María en nuestra sección de <a href=\"/contacto/\">contacto</a>.</p>"
+  },
+  {
+    "id": "distrito-san-miguel-2026",
+    "title": "Limpieza de Oficinas, Centros Empresariales e Institutos en San Miguel",
+    "slug": "limpieza-de-oficinas-centros-comerciales-e-institutos-en-san-miguel",
+    "categorySlug": "distritos-de-lima",
+    "categoryName": "📍 Distritos de Lima",
+    "districtName": "San Miguel",
+    "keywords": [
+      "limpieza de oficinas en san miguel",
+      "empresa de limpieza en san miguel lima",
+      "servicio de limpieza av la marina universitaria",
+      "limpieza para institutos universidades y concesionarios san miguel",
+      "mantenimiento corporativo en san miguel"
+    ],
+    "excerpt": "Servicio profesional de limpieza para edificios de oficinas, institutos superiores, universidades, concesionarios automotrices y empresas comerciales en San Miguel (Av. La Marina, Universitaria y Faucett).",
+    "publishedAt": "2026-11-03",
+    "imageUrl": "/posts-images/distrito-san-miguel.jpg",
+    "readTime": "7 min",
+    "content": "<h2>San Miguel: El Gran Polo Comercial, Educativo y Corporativo de Lima Oeste</h2>\n<p>Conectando el centro empresarial de Lima con el Aeropuerto y el Puerto del Callao, <strong>San Miguel</strong> es el centro neurálgico comercial y educativo de Lima Oeste. A lo largo de la <strong>Av. La Marina, Av. Universitaria, Av. Elmer Faucett, Av. Venezuela y Av. Costanera</strong>, operan importantes campus universitarios e institutos superiores, concesionarios automotrices, clínicas, centros financieros, operadores de <em>call center</em> y modernos edificios de oficinas.</p>\n<p>En <strong>DINAMICA SERVICIO DE LIMPIEZA SAC</strong> proveemos soluciones de <a href=\"/servicios/limpieza-para-empresas/\">limpieza para empresas e instituciones en San Miguel</a> diseñadas para instalaciones de alto tránsito de público y colaboradores.</p>\n\n<h2>Servicios Clave para Empresas en San Miguel</h2>\n\n<h3>1. Limpieza de Showrooms Automotrices, Bancos y Centros Comerciales en Av. La Marina</h3>\n<p>Las salas de exhibición vehicular, agencias financieras y locales corporativos sobre la Av. La Marina requieren pisos brillantes sin marcas de pisadas y cristales de gran altura completamente traslúcidos:</p>\n<ul>\n  <li><strong>Abrillantado diario de porcelanato y pisos pulidos:</strong> Uso de mopas tratadas y máquinas lustradoras/fregadoras compactas para mantener el brillo espejo en zonas de exhibición.</li>\n  <li><strong>Limpieza de fachadas acristaladas y escaparates:</strong> Remoción de polvo vehicular y brisa marina húmeda propia del litoral de San Miguel.</li>\n</ul>\n\n<h3>2. Higienización de Campus Educativos, Institutos y Oficinas Administrativas</h3>\n<p>Atendemos sedes educativas y edificios corporativos en los ejes de Av. Universitaria y Av. La Marina con operarios en turnos rotativos (mañana, tarde y noche) para mantener aulas, laboratorios de cómputo, oficinas de admisión y servicios higiénicos en condiciones óptimas de salubridad.</p>\n\n<h3>3. Saneamiento Ambiental y Mantenimiento Integral</h3>\n<p>Complementamos la limpieza diaria con <a href=\"/servicios/saneamiento-ambiental/\">fumigación, desinfección ULV, desratización y limpieza de cisternas de agua</a> con certificado oficial DIGESA, así como <a href=\"/servicios/mantenimiento-integral/\">mantenimiento de pintura, luminarias y aire acondicionado</a>.</p>\n\n<h2>Zonas de Cobertura en San Miguel</h2>\n<ul>\n  <li><strong>Corredor Av. La Marina (cuadras 1 a la 36) – Plaza San Miguel:</strong> Edificios de oficinas, bancos, concesionarios, clínicas y comercios corporativos.</li>\n  <li><strong>Eje Av. Universitaria – Pando – Maranga:</strong> Universidades, institutos, colegios y centros empresariales.</li>\n  <li><strong>Eje Av. Elmer Faucett – Av. Venezuela – Av. Precursores:</strong> Oficinas logísticas, laboratorios, almacenes comerciales y sedes administrativas.</li>\n</ul>\n<p>Agenda una visita técnica hoy mismo desde nuestra página de <a href=\"/contacto/\">contacto</a>.</p>"
+  },
+  {
+    "id": "distrito-cercado-de-lima-2026",
+    "title": "Limpieza de Sedes Corporativas e Industriales en Cercado de Lima: Centro Histórico y Zona Industrial",
+    "slug": "limpieza-de-sedes-corporativas-e-industriales-en-cercado-de-lima",
+    "categorySlug": "distritos-de-lima",
+    "categoryName": "📍 Distritos de Lima",
+    "districtName": "Cercado de Lima",
+    "keywords": [
+      "limpieza de oficinas en cercado de lima",
+      "empresa de limpieza en el centro de lima",
+      "limpieza industrial av argentina colonial venezuela",
+      "servicio de limpieza para edificios e instituciones cercado de lima",
+      "mantenimiento y saneamiento ambiental cercado de lima"
+    ],
+    "excerpt": "Cobertura especializada de limpieza para sedes matrices bancarias e institucionales en el Centro Histórico de Lima y plantas con oficinas administrativas en la Zona Industrial (Av. Argentina, Colonial y Venezuela).",
+    "publishedAt": "2026-11-03",
+    "imageUrl": "/posts-images/distrito-cercado-de-lima.jpg",
+    "readTime": "8 min",
+    "content": "<h2>Cercado de Lima: Dos Ecosistemas Empresariales que Requieren Experiencia Especializada</h2>\n<p>El <strong>Cercado de Lima</strong> reúne dos de los motores económicos más importantes de la capital, cada uno con necesidades operativas completamente distintas:</p>\n<ol>\n  <li><strong>El Centro Histórico y Cívico (Paseo de la República, Av. Nicolás de Piérola, Jr. Lampa, Av. Abancay, Jr. de la Unión y Av. Garcilaso de la Vega / Wilson):</strong> Donde se ubican sedes matrices bancarias, compañías de seguros, notarías, estudios jurídicos, universidades, galerías tecnológicas y organismos institucionales en edificios de gran envergadura.</li>\n  <li><strong>La Zona Industrial del Cercado (Av. Argentina, Av. Óscar R. Benavides / Colonial, Av. Venezuela, Av. Materiales y Av. Dueñas):</strong> Donde operan plantas manufactureras, imprentas editoriales, almacenes mayoristas, laboratorios y centros de distribución con amplios bloques de oficinas administrativas.</li>\n</ol>\n<p>En <strong>DINAMICA SERVICIO DE LIMPIEZA SAC</strong> contamos con equipos diferenciados para brindar el mejor servicio de <a href=\"/servicios/limpieza-para-empresas/\">limpieza de oficinas e industrias en el Cercado de Lima</a>.</p>\n\n<h2>1. Soluciones para Sedes Institucionales y Edificios en el Centro de Lima</h2>\n<ul>\n  <li><strong>Conservación de pisos de mármol, terrazo, granito y madera patrimonial:</strong> Muchos edificios del Centro de Lima cuentan con acabados clásicos de alto valor arquitectónico que mantenemos con lustradoras rotativas, discos adecuados y ceras/selladores polímeros antideslizantes.</li>\n  <li><strong>Logística en horarios nocturnos o de madrugada:</strong> Para sortear las restricciones de tránsito del Centro Histórico y dejar todas las oficinas impecables antes de las 8:00 a.m.</li>\n  <li><strong>Control de hollín y contaminación ambiental urbana:</strong> Limpieza frecuente de persianas, ventanales, filtros de ventilación y mobiliario.</li>\n</ul>\n\n<h2>2. Soluciones para la Zona Industrial (Av. Argentina, Colonial y Venezuela)</h2>\n<ul>\n  <li><strong>Limpieza combinada Planta + Oficina Administrativa:</strong> Operarios capacitados en Seguridad y Salud en el Trabajo (SST), con SCTR Salud y Pensión vigente, calzado de seguridad y EPPs completos.</li>\n  <li><strong>Maquinaria pesada:</strong> Fregadoras de pisos, aspiradoras industriales polvo/agua, lustradoras e hidrolavadoras para naves industriales y patios de despacho.</li>\n  <li><strong>Saneamiento Ambiental Certificado:</strong> Emitimos certificados de <a href=\"/servicios/saneamiento-ambiental/\">fumigación, desratización y limpieza de cisternas</a> válidos para inspecciones de la Municipalidad Metropolitana de Lima y DIGESA.</li>\n</ul>\n<p>Solicita tu cotización corporativa para el Cercado de Lima desde nuestra página de <a href=\"/contacto/\">contacto</a>.</p>"
+  },
+  {
+    "id": "distrito-chorrillos-2026",
+    "title": "Limpieza Industrial y de Oficinas en Chorrillos y Lurín: Centros Logísticos y Plantas del Sur de Lima",
+    "slug": "limpieza-industrial-y-de-oficinas-en-chorrillos-y-lurin",
+    "categorySlug": "distritos-de-lima",
+    "categoryName": "📍 Distritos de Lima",
+    "districtName": "Chorrillos y Lurín",
+    "keywords": [
+      "limpieza de oficinas y plantas en chorrillos",
+      "empresa de limpieza industrial en lurin y chorrillos",
+      "servicio de limpieza para almacenes y centros logisticos sur de lima",
+      "limpieza industrial los faisanes la campina chorrillos",
+      "saneamiento ambiental para almacenes en lurin"
+    ],
+    "excerpt": "Servicio de limpieza corporativa e industrial y saneamiento ambiental para plantas, laboratorios y centros de distribución en Chorrillos (Los Faisanes, La Campiña, Huaylas) y Parques Industriales de Lurín.",
+    "publishedAt": "2026-11-03",
+    "imageUrl": "/posts-images/distrito-chorrillos.jpg",
+    "readTime": "7 min",
+    "content": "<h2>El Eje Corporativo e Industrial del Sur de Lima: Chorrillos y Lurín</h2>\n<p>El corredor sur de Lima Metropolitana —integrado por las zonas empresariales e industriales de <strong>Chorrillos (Urb. Los Faisanes, La Campiña, Santa Leonor, Av. Defensores del Morro / Huaylas y Av. El Sol)</strong> y los modernos <strong>Parques Industriales y Centros Logísticos de Lurín y Villa El Salvador (Panamericana Sur Km 20 al Km 40)</strong>— concentra hoy a las principales plantas de alimentos, laboratorios farmacéuticos, industrias plásticas, operadores logísticos 3PL y sedes corporativas del sur de la capital.</p>\n<p>Dada la cercanía de nuestra sede central en <strong>Santiago de Surco (acceso directo hacia la Panamericana Sur)</strong>, en <strong>DINAMICA SERVICIO DE LIMPIEZA SAC</strong> garantizamos una cobertura rápida, supervisada y con personal residente de la zona sur para asegurar <strong>puntualidad absoluta y cero ausentismo</strong>.</p>\n\n<h2>Servicios Especializados para Empresas en Chorrillos y Lurín</h2>\n\n<h3>1. Limpieza de Oficinas Administrativas en Condominios Logísticos y Plantas</h3>\n<ul>\n  <li><strong>Aislamiento de polvo industrial y arena costera:</strong> Sellado y limpieza húmeda diaria de oficinas gerenciales, salas de directorio, laboratorios de control de calidad y oficinas de despacho logístico.</li>\n  <li><strong>Higienización de comedores industriales, vestuarios y duchas:</strong> Desinfección profunda entre turnos para plantas con personal operativo intensivo.</li>\n</ul>\n\n<h3>2. Limpieza Mecanizada de Almacenes de Gran Altura (Racks y Pisos Epóxicos)</h3>\n<p>Utilizamos fregadoras industriales, barredoras y aspiradoras de alto caudal para mantener libres de polvo de cartón, caucho de llantas de montacargas y residuos de embalaje los pasillos logísticos y zonas de <em>picking</em>.</p>\n\n<h3>3. Saneamiento Ambiental para Auditorías BPM, HACCP y DIGESA</h3>\n<p>Las industrias alimentarias, cosméticas, farmacéuticas y almacenes en Chorrillos y Lurín requieren un control sanitario estricto. Ejecutamos <a href=\"/servicios/saneamiento-ambiental/\">desratización perimetral con estaciones cebaderas mapeadas, fumigación integral, desinfección ULV y limpieza de cisternas de agua</a> con certificación firmada por Ingeniero Sanitario.</p>\n<p>Cotiza hoy mismo el servicio para tu sede en Chorrillos o Lurín en nuestra sección de <a href=\"/contacto/\">contacto</a>.</p>"
+  },
+  {
+    "id": "ciudad-arequipa-2026",
+    "title": "Servicio de Limpieza de Oficinas y Empresas en Arequipa: Cobertura Corporativa, Minera e Industrial",
+    "slug": "servicio-de-limpieza-de-oficinas-y-empresas-en-arequipa",
+    "categorySlug": "ciudades-del-peru",
+    "categoryName": "🇵🇪 Ciudades del Perú",
+    "districtName": "Arequipa",
+    "keywords": [
+      "limpieza de oficinas en arequipa",
+      "empresa de limpieza en arequipa",
+      "servicio de limpieza corporativa cayma yanahuara arequipa",
+      "limpieza industrial parque industrial rio seco arequipa",
+      "saneamiento ambiental y mantenimiento en arequipa"
+    ],
+    "excerpt": "Servicio profesional de limpieza corporativa, industrial y saneamiento ambiental en Arequipa para sedes de empresas mineras, bancos, clínicas y plantas en Cayma, Yanahuara, Cercado y Parque Industrial.",
+    "publishedAt": "2026-11-03",
+    "imageUrl": "/posts-images/ciudad-arequipa.jpg",
+    "readTime": "8 min",
+    "content": "<h2>Arequipa: El Principal Hub Corporativo, Financiero y Minero del Sur del Perú</h2>\n<p>Como segunda economía urbana del país, <strong>Arequipa</strong> es sede de las oficinas corporativas de las principales compañías mineras y contratistas del Corredor Minero del Sur, así como de grandes grupos industriales, entidades financieras, clínicas privadas y universidades. En ejes empresariales como <strong>Cayma (Av. Ejército y Trinidad Morán), Yanahuara, Vallecito, el Cercado de Arequipa, José Luis Bustamante y Rivero, Cerro Colorado y los Parques Industriales de Arequipa y Río Seco</strong>, las empresas demandan proveedores formales que cumplan los mismos estándares de seguridad, calidad y homologación que en Lima.</p>\n<p>En <strong>DINAMICA SERVICIO DE LIMPIEZA SAC</strong> brindamos cobertura en la ciudad de Arequipa con planes integrales de <a href=\"/servicios/limpieza-para-empresas/\">limpieza de oficinas y sedes corporativas</a>, <a href=\"/servicios/saneamiento-ambiental/\">saneamiento ambiental</a> y <a href=\"/servicios/mantenimiento-integral/\">mantenimiento de instalaciones</a>.</p>\n\n<h2>Protocolos Adaptados a la Realidad Climática y Empresarial de Arequipa</h2>\n\n<h3>1. Control del Polvo Seco y Radiación en Oficinas de Cayma, Yanahuara y Cercado</h3>\n<p>El clima seco de campiña y altura de Arequipa genera una alta presencia de polvo fino y estática en oficinas corporativas. Aplicamos técnicas de captación en húmedo con microfibra profesional, aspirado con filtro HEPA en pisos alfombrados y tratamiento antiestático de equipos de cómputo y salas de servidores.</p>\n\n<h3>2. Homologación SST para Sedes Administrativas Mineras e Industriales</h3>\n<p>Las empresas vinculadas al sector minero, energético y de construcción en Arequipa exigen un cumplimiento impecable en Seguridad y Salud en el Trabajo (Ley 29783):</p>\n<ul>\n  <li>Personal 100% en planilla con <strong>SCTR Salud y Pensión</strong>, exámenes médicos ocupacionales (EMO) y capacitación documentada en manejo de hojas MSDS e IPERC.</li>\n  <li>Conservación de edificios corporativos y complejos industriales en el <strong>Parque Industrial de Arequipa, Río Seco (Cerro Colorado) y Variante de Uchumayo</strong>.</li>\n</ul>\n\n<h3>3. Saneamiento Ambiental Certificado en Arequipa</h3>\n<p>Realizamos desinfección de oficinas, fumigación integral, control de roedores y limpieza de cisternas y tanques elevados con certificación oficial válida ante inspecciones municipales y de salud.</p>\n<p>Solicita una propuesta técnica para tu sede en Arequipa desde nuestra página de <a href=\"/contacto/\">contacto</a>.</p>"
+  },
+  {
+    "id": "ciudad-trujillo-2026",
+    "title": "Empresa de Limpieza para Oficinas, Agroindustrias y Sedes Corporativas en Trujillo",
+    "slug": "empresa-de-limpieza-para-oficinas-e-industrias-en-trujillo",
+    "categorySlug": "ciudades-del-peru",
+    "categoryName": "🇵🇪 Ciudades del Perú",
+    "districtName": "Trujillo",
+    "keywords": [
+      "limpieza de oficinas en trujillo",
+      "empresa de limpieza en trujillo peru",
+      "servicio de limpieza corporativa el golf california trujillo",
+      "limpieza industrial y agroindustrial en trujillo",
+      "saneamiento ambiental y fumigacion en trujillo"
+    ],
+    "excerpt": "Limpieza profesional de oficinas corporativas, sedes agroindustriales, clínicas, universidades y almacenes en Trujillo (El Golf, California, Primavera, San Andrés y Parque Industrial).",
+    "publishedAt": "2026-11-03",
+    "imageUrl": "/posts-images/ciudad-trujillo.jpg",
+    "readTime": "7 min",
+    "content": "<h2>Trujillo: Excelencia en Limpieza Corporativa para la Capital Empresarial del Norte</h2>\n<p><strong>Trujillo</strong> lidera el crecimiento agroexportador, comercial, inmobiliario y educativo del norte peruano. En zonas empresariales como <strong>Urb. California, El Golf, San Andrés, Primavera, Las Quintanas, Natasha Alta, el Centro Histórico de Trujillo y el Parque Industrial (La Esperanza / Panamericana Norte)</strong>, operan las sedes administrativas de las mayores empresas agroindustriales del país, bancos, clínicas privadas, universidades, concesionarios y centros comerciales.</p>\n<p>En <strong>DINAMICA SERVICIO DE LIMPIEZA SAC</strong> ponemos a disposición de las empresas trujillanas nuestro servicio formal de <a href=\"/servicios/limpieza-para-empresas/\">limpieza de oficinas y locales corporativos</a>, con personal en planilla, supervisión constante e insumos certificados por DIGESA.</p>\n\n<h2>Soluciones para el Sector Empresarial y Agroindustrial de Trujillo</h2>\n\n<h3>1. Limpieza de Edificios Corporativos, Bancos y Clínicas (California, El Golf y San Andrés)</h3>\n<ul>\n  <li>Higienización diaria de oficinas ejecutivas, salas de directorio, consultorios médicos y áreas de atención al cliente.</li>\n  <li>Control del polvo costero y mantenimiento de fachadas de vidrio, pisos de porcelanato y sistemas de ventilación.</li>\n</ul>\n\n<h3>2. Oficinas Administrativas de Plantas Agroindustriales y Centros Logísticos</h3>\n<p>Atendemos las oficinas centrales, laboratorios de calidad, comedores y vestuarios de empresas agroexportadoras e industriales en el corredor de la Panamericana Norte y el Parque Industrial, cumpliendo estrictamente con los estándares de auditorías internacionales (BPM, HACCP, GlobalG.A.P. y BASC).</p>\n\n<h3>3. Saneamiento Ambiental Certificado (Fumigación y Desratización)</h3>\n<p>Por el clima templado-cálido de La Libertad, el control preventivo de vectores e insectos es indispensable. Ejecutamos <a href=\"/servicios/saneamiento-ambiental/\">fumigación, desinfección ULV, desratización y limpieza de reservorios de agua</a> con certificación sanitaria oficial.</p>\n<p>Cotiza el servicio de limpieza para tu empresa en Trujillo en nuestra sección de <a href=\"/contacto/\">contacto</a>.</p>"
+  },
+  {
+    "id": "ciudad-huaraz-2026",
+    "title": "Limpieza de Oficinas Corporativas, Bancos y Contratistas Mineros en Huaraz",
+    "slug": "limpieza-de-oficinas-corporativas-y-contratistas-mineros-en-huaraz",
+    "categorySlug": "ciudades-del-peru",
+    "categoryName": "🇵🇪 Ciudades del Perú",
+    "districtName": "Huaraz",
+    "keywords": [
+      "limpieza de oficinas en huaraz",
+      "empresa de limpieza en huaraz ancash",
+      "servicio de limpieza para empresas mineras y contratistas huaraz",
+      "limpieza de bancos e instituciones en huaraz",
+      "saneamiento ambiental en huaraz"
+    ],
+    "excerpt": "Servicio especializado de limpieza para oficinas administrativas de empresas mineras, contratistas de ingeniería, entidades financieras e instituciones en Huaraz y el Callejón de Huaylas.",
+    "publishedAt": "2026-11-03",
+    "imageUrl": "/posts-images/ciudad-huaraz.jpg",
+    "readTime": "7 min",
+    "content": "<h2>Huaraz: Soporte Corporativo Formal para el Eje Minero, Energético y Financiero de Áncash</h2>\n<p>La ciudad de <strong>Huaraz</strong> (y el distrito de Independencia) funciona como el centro administrativo neurálgico de las grandes operaciones mineras, empresas contratistas de ingeniería, proyectos hidroenergéticos, entidades bancarias, clínicas y organismos públicos de la sierra de Áncash. En arterias clave como la <strong>Av. Luzuriaga, Av. Centenario, Av. Confraternidad Internacional, Av. Gamarra, Barrio de Belén y Monterrey</strong>, las empresas requieren un proveedor de limpieza 100% formal, homologado en seguridad y capaz de responder a las exigencias del clima andino.</p>\n<p>En <strong>DINAMICA SERVICIO DE LIMPIEZA SAC</strong> brindamos el servicio de <a href=\"/servicios/limpieza-para-empresas/\">limpieza de oficinas corporativas en Huaraz</a> bajo los más altos estándares de Seguridad y Salud en el Trabajo (SST).</p>\n\n<h2>Protocolos Específicos para Oficinas y Sedes en Huaraz</h2>\n\n<h3>1. Protección de Pisos e Instalaciones durante la Temporada de Lluvias Andinas</h3>\n<p>En Huaraz, el ingreso de humedad, barro y gravilla en el calzado durante los meses de lluvia deteriora rápidamente los pisos de madera, laminados, alfombras y porcelanatos de las oficinas:</p>\n<ul>\n  <li>Implementación y mantenimiento de barreras atrapabarro en accesos y recepciones.</li>\n  <li>Secado y limpieza continua de pasadizos de alto tránsito, escaleras con cintas antideslizantes y áreas de atención al público para prevenir accidentes por resbalamiento.</li>\n  <li>Cuidado térmico y limpieza en seco/húmedo controlado de oficinas alfombradas y salas de reuniones.</li>\n</ul>\n\n<h3>2. Cumplimiento Laboral y SST para Contratistas y Proveedores Mineros</h3>\n<p>Contamos con toda la documentación exigida por las empresas mineras y sus contratistas en Huaraz: personal en planilla electrónica, pólizas SCTR Salud y Pensión vigentes, exámenes médicos ocupacionales, EPPs completos y hojas técnicas MSDS de cada insumo químico autorizado por DIGESA.</p>\n<p>Solicita tu cotización corporativa para Huaraz a través de nuestra página de <a href=\"/contacto/\">contacto</a>.</p>"
+  },
+  {
+    "id": "ciudad-ica-2026",
+    "title": "Servicio de Limpieza para Empresas Agroindustriales, Oficinas y Sedes Corporativas en Ica",
+    "slug": "servicio-de-limpieza-para-empresas-agroindustriales-y-oficinas-en-ica",
+    "categorySlug": "ciudades-del-peru",
+    "categoryName": "🇵🇪 Ciudades del Perú",
+    "districtName": "Ica",
+    "keywords": [
+      "limpieza de oficinas en ica",
+      "empresa de limpieza en ica peru",
+      "servicio de limpieza para agroexportadoras y plantas de packing ica",
+      "saneamiento ambiental y fumigacion en ica",
+      "mantenimiento corporativo en ica"
+    ],
+    "excerpt": "Limpieza profesional de oficinas administrativas, plantas agroexportadoras (packing), bodegas vitivinícolas, bancos y clínicas en Ica con control especializado de polvo eólico y saneamiento certificado.",
+    "publishedAt": "2026-11-03",
+    "imageUrl": "/posts-images/ciudad-ica.jpg",
+    "readTime": "7 min",
+    "content": "<h2>Ica: Limpieza Corporativa e Industrial para la Capital Agroexportadora del Perú</h2>\n<p>La región y ciudad de <strong>Ica</strong> es uno de los polos empresariales más pujantes del país, impulsado por las grandes compañías agroexportadoras, plantas procesadoras (<em>packing</em>), industrias vitivinícolas, empresas logísticas, bancos, clínicas y centros comerciales ubicados en la <strong>Av. Los Maestros, Urb. San Isidro, La Angostura, Av. Municipalidad, Av. Grau y el corredor de la Panamericana Sur</strong>.</p>\n<p>En <strong>DINAMICA SERVICIO DE LIMPIEZA SAC</strong> ofrecemos soluciones integrales de <a href=\"/servicios/limpieza-para-empresas/\">limpieza de oficinas y sedes empresariales en Ica</a>, respaldadas por nuestra cercanía con Lima y una gestión operativa 100% formal.</p>\n\n<h2>Soluciones Diseñadas para las Condiciones de Ica</h2>\n\n<h3>1. Control Intensivo de Polvo Eólico y Arena Fina en Oficinas y Equipos</h3>\n<p>Por su geografía desértica y los vientos característicos de la región, las oficinas corporativas y laboratorios en Ica enfrentan una filtración constante de arena fina y polvo en suspensión:</p>\n<ul>\n  <li>Limpieza diaria con paños de microfibra atrapapolvo y aspiradoras con filtración HEPA que impiden el retorno de micropartículas al ambiente.</li>\n  <li>Mantenimiento preventivo de rieles de mamparas, marcos de ventanas herméticas, equipos de cómputo y filtros de aire acondicionado.</li>\n</ul>\n\n<h3>2. Oficinas Administrativas de Fundos, Plantas de Packing y Agroindustrias</h3>\n<p>Higienizamos los bloques administrativos, laboratorios de aseguramiento de la calidad, comedores de personal y servicios higiénicos cumpliendo con las exigencias documentales y sanitarias de certificaciones internacionales de exportación.</p>\n\n<h3>3. Saneamiento Ambiental Certificado (DIGESA) en Ica</h3>\n<p>Ejecutamos programas anuales de <a href=\"/servicios/saneamiento-ambiental/\">desratización, fumigación (desinsectación), desinfección de ambientes y limpieza de cisternas de agua potable</a> con certificados oficiales firmados por Ingeniero Sanitario.</p>\n<p>Solicita una cotización para tus instalaciones en Ica desde nuestra página de <a href=\"/contacto/\">contacto</a>.</p>"
+  },
+  {
+    "id": "ciudad-piura-2026",
+    "title": "Limpieza de Oficinas y Empresas en Piura: Mantenimiento Corporativo y Saneamiento Ambiental",
+    "slug": "limpieza-de-oficinas-y-empresas-en-piura-saneamiento-y-mantenimiento",
+    "categorySlug": "ciudades-del-peru",
+    "categoryName": "🇵🇪 Ciudades del Perú",
+    "districtName": "Piura",
+    "keywords": [
+      "limpieza de oficinas en piura",
+      "empresa de limpieza en piura peru",
+      "servicio de limpieza zona industrial piura",
+      "fumigacion y saneamiento ambiental en piura",
+      "mantenimiento de oficinas y empresas en piura"
+    ],
+    "excerpt": "Servicio integral de limpieza de oficinas, mantenimiento de aire acondicionado y saneamiento ambiental (control vectorial y fumigación) para empresas en Piura (Zona Industrial, El Chipe, Miraflores y Castilla).",
+    "publishedAt": "2026-11-03",
+    "imageUrl": "/posts-images/ciudad-piura.jpg",
+    "readTime": "7 min",
+    "content": "<h2>Piura: Limpieza Corporativa y Saneamiento Ambiental para el Polo Empresarial del Norte</h2>\n<p><strong>Piura</strong> concentra una intensa actividad empresarial vinculada a los sectores agroexportador, energético y petrolero, pesquero, logístico, financiero, educativo y de salud. En la <strong>Zona Industrial de Piura, Urb. El Chipe, Urb. Miraflores (Castilla), Santa Isabel, Los Ejidos y el Centro de Piura</strong>, las empresas requieren mantener sus oficinas climatizadas, libres de polvo y protegidas sanitariamente frente a los vectores propios del clima tropical seco y las temporadas de lluvias.</p>\n<p>En <strong>DINAMICA SERVICIO DE LIMPIEZA SAC</strong> brindamos un servicio integral en Piura que articula la <a href=\"/servicios/limpieza-para-empresas/\">limpieza diaria de oficinas</a> con el <a href=\"/servicios/saneamiento-ambiental/\">saneamiento ambiental certificado</a> y el <a href=\"/servicios/mantenimiento-integral/\">mantenimiento preventivo de instalaciones</a>.</p>\n\n<h2>3 Pilares de Nuestro Servicio Empresarial en Piura</h2>\n\n<h3>1. Limpieza de Oficinas Climatizadas y Cuidado de Sistemas de Aire Acondicionado</h3>\n<p>En Piura, las oficinas corporativas operan el 100% del año con sistemas de aire acondicionado cerrados. La acumulación de polvo fino del desierto piurano en rejillas, difusores y filtros deteriora la calidad del aire interior y eleva el consumo eléctrico. Nuestros operarios higienizan permanentemente las superficies interiores, ventanales y difusores, complementado con nuestro servicio técnico de mantenimiento de equipos de climatización.</p>\n\n<h3>2. Saneamiento Ambiental y Control Vectorial Certificado (Fumigación y Dengue)</h3>\n<p>Las altas temperaturas y las lluvias estacionales en Piura exigen un programa riguroso de control de plagas:</p>\n<ul>\n  <li><strong>Fumigación (desinsectación) por termonebulización y nebulización ULV:</strong> Eliminación efectiva de zancudos (vectores del dengue), mosquitos e insectos rastreros en oficinas, almacenes y áreas verdes.</li>\n  <li><strong>Desratización y control de roedores</strong> en almacenes industriales y logísticos.</li>\n  <li><strong>Limpieza y desinfección de cisternas y tanques elevados</strong> con entrega de certificado oficial DIGESA.</li>\n</ul>\n\n<h3>3. Personal Formal con SCTR y Cobertura en Zona Industrial, El Chipe y Castilla</h3>\n<p>Destacamos operarios en planilla con todos sus beneficios de ley, SCTR vigente, antecedentes verificados y supervisión permanente. <a href=\"/contacto/\">Contáctanos hoy</a> para cotizar el servicio de limpieza de tu sede en Piura.</p>"
   },
   {
     "id": "1648",

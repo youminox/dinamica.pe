@@ -2,13 +2,17 @@ import type { MetadataRoute } from "next";
 import { BLOG_POSTS } from "@/content/blog-posts";
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const blogEntries: MetadataRoute.Sitemap = BLOG_POSTS.map((post) => ({
-    url: `https://dinamica.pe/blog/${post.slug}/`,
-    lastModified: new Date(post.publishedAt),
-    changeFrequency:
-      post.categorySlug === "distritos-de-lima" ? "weekly" : "monthly",
-    priority: post.categorySlug === "distritos-de-lima" ? 0.85 : 0.7,
-  }));
+  const blogEntries: MetadataRoute.Sitemap = BLOG_POSTS.map((post) => {
+    const isGeoSeo =
+      post.categorySlug === "distritos-de-lima" ||
+      post.categorySlug === "ciudades-del-peru";
+    return {
+      url: `https://dinamica.pe/blog/${post.slug}/`,
+      lastModified: new Date(post.publishedAt),
+      changeFrequency: isGeoSeo ? "weekly" : "monthly",
+      priority: isGeoSeo ? 0.85 : 0.7,
+    };
+  });
 
   return [
     {

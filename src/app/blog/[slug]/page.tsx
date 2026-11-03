@@ -111,7 +111,10 @@ export default async function BlogSlugPage({ params }: Props) {
             },
             areaServed: {
               "@type": "AdministrativeArea",
-              name: `${post.districtName}, Lima, Perú`,
+              name:
+                post.categorySlug === "ciudades-del-peru"
+                  ? `${post.districtName}, Perú`
+                  : `${post.districtName}, Lima, Perú`,
             },
             serviceType: `Servicio de Limpieza de Oficinas y Empresas en ${post.districtName}`,
           },
