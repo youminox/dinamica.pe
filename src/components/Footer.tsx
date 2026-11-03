@@ -133,8 +133,72 @@ export default function Footer() {
           </div>
         </div>
 
+        {/* Cobertura por Distritos en Lima (SEO Internal Linking) */}
+        <div className="mt-10 border-t border-gray-100 pt-6">
+          <div className="flex flex-wrap items-center justify-center gap-x-4 gap-y-2 text-xs text-brand-gray">
+            <span className="font-bold text-brand-black uppercase tracking-wider">
+              Cobertura en Lima:
+            </span>
+            <a
+              href="/blog/servicio-de-limpieza-de-oficinas-en-santiago-de-surco/"
+              className="transition-colors hover:text-primary"
+            >
+              Santiago de Surco
+            </a>
+            <span>·</span>
+            <a
+              href="/blog/limpieza-de-oficinas-corporativas-en-san-isidro/"
+              className="transition-colors hover:text-primary"
+            >
+              San Isidro
+            </a>
+            <span>·</span>
+            <a
+              href="/blog/empresa-de-limpieza-para-oficinas-y-locales-en-miraflores/"
+              className="transition-colors hover:text-primary"
+            >
+              Miraflores
+            </a>
+            <span>·</span>
+            <a
+              href="/blog/limpieza-de-oficinas-y-centros-medicos-en-san-borja/"
+              className="transition-colors hover:text-primary"
+            >
+              San Borja
+            </a>
+            <span>·</span>
+            <a
+              href="/blog/servicio-de-limpieza-para-empresas-y-colegios-en-la-molina/"
+              className="transition-colors hover:text-primary"
+            >
+              La Molina
+            </a>
+            <span>·</span>
+            <a
+              href="/blog/limpieza-de-edificios-corporativos-y-oficinas-en-magdalena/"
+              className="transition-colors hover:text-primary"
+            >
+              Magdalena del Mar
+            </a>
+            <span>·</span>
+            <a
+              href="/blog/limpieza-industrial-y-de-oficinas-administrativas-en-ate/"
+              className="transition-colors hover:text-primary"
+            >
+              Ate
+            </a>
+            <span>·</span>
+            <a
+              href="/blog/limpieza-de-oficinas-logisticas-y-almacenes-en-el-callao/"
+              className="transition-colors hover:text-primary"
+            >
+              Callao
+            </a>
+          </div>
+        </div>
+
         {/* Bottom Legal Bar */}
-        <div className="mt-12 flex flex-col items-center justify-between gap-4 border-t border-gray-100 pt-8 sm:flex-row">
+        <div className="mt-6 flex flex-col items-center justify-between gap-4 border-t border-gray-100 pt-6 sm:flex-row">
           <p className="text-xs text-brand-gray">{content.footer.copyright}</p>
           <div className="flex flex-wrap justify-center gap-5">
             {content.footer.links.map((link) => (

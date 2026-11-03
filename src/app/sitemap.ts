@@ -5,8 +5,9 @@ export default function sitemap(): MetadataRoute.Sitemap {
   const blogEntries: MetadataRoute.Sitemap = BLOG_POSTS.map((post) => ({
     url: `https://dinamica.pe/blog/${post.slug}/`,
     lastModified: new Date(post.publishedAt),
-    changeFrequency: "monthly",
-    priority: 0.7,
+    changeFrequency:
+      post.categorySlug === "distritos-de-lima" ? "weekly" : "monthly",
+    priority: post.categorySlug === "distritos-de-lima" ? 0.85 : 0.7,
   }));
 
   return [

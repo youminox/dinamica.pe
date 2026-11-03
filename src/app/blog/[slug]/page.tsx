@@ -38,6 +38,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   return {
     title: `${post.title} | DINÁMICA`,
     description: post.excerpt,
+    ...(post.keywords ? { keywords: post.keywords } : {}),
     alternates: { canonical: `https://dinamica.pe/blog/${post.slug}/` },
     openGraph: {
       title: post.title,
@@ -68,37 +69,66 @@ export default async function BlogSlugPage({ params }: Props) {
   const recentPosts = BLOG_POSTS.filter((p) => p.id !== post.id).slice(0, 5);
   const cleanHtml = sanitizeWpContent(post.content);
 
+  const blogPostingSchema = {
+    "@type": "BlogPosting",
+    headline: post.title,
+    description: post.excerpt,
+    ...(post.keywords ? { keywords: post.keywords.join(", ") } : {}),
+    image: `https://dinamica.pe${post.imageUrl}`,
+    datePublished: post.publishedAt,
+    author: {
+      "@type": "Organization",
+      name: "DINAMICA SERVICIO DE LIMPIEZA SAC",
+      url: "https://dinamica.pe",
+    },
+    publisher: {
+      "@type": "Organization",
+      name: "DINAMICA SERVICIO DE LIMPIEZA SAC",
+      logo: {
+        "@type": "ImageObject",
+        url: "https://dinamica.pe/logo-dinamica.png",
+      },
+    },
+    mainEntityOfPage: {
+      "@type": "WebPage",
+      "@id": `https://dinamica.pe/blog/${post.slug}/`,
+    },
+  };
+
+  const jsonLd = post.districtName
+    ? {
+        "@context": "https://schema.org",
+        "@graph": [
+          blogPostingSchema,
+          {
+            "@type": "Service",
+            name: post.title,
+            description: post.excerpt,
+            provider: {
+              "@type": "LocalBusiness",
+              "@id": "https://dinamica.pe/#organization",
+              name: "DINAMICA SERVICIO DE LIMPIEZA SAC",
+            },
+            areaServed: {
+              "@type": "AdministrativeArea",
+              name: `${post.districtName}, Lima, Perú`,
+            },
+            serviceType: `Servicio de Limpieza de Oficinas y Empresas en ${post.districtName}`,
+          },
+        ],
+      }
+    : {
+        "@context": "https://schema.org",
+        ...blogPostingSchema,
+      };
+
   return (
     <>
       <Header />
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{
-          __html: JSON.stringify({
-            "@context": "https://schema.org",
-            "@type": "BlogPosting",
-            headline: post.title,
-            description: post.excerpt,
-            image: `https://dinamica.pe${post.imageUrl}`,
-            datePublished: post.publishedAt,
-            author: {
-              "@type": "Organization",
-              name: "DINAMICA SERVICIO DE LIMPIEZA SAC",
-              url: "https://dinamica.pe",
-            },
-            publisher: {
-              "@type": "Organization",
-              name: "DINAMICA SERVICIO DE LIMPIEZA SAC",
-              logo: {
-                "@type": "ImageObject",
-                url: "https://dinamica.pe/logo-dinamica.png",
-              },
-            },
-            mainEntityOfPage: {
-              "@type": "WebPage",
-              "@id": `https://dinamica.pe/blog/${post.slug}/`,
-            },
-          }),
+          __html: JSON.stringify(jsonLd),
         }}
       />
 
