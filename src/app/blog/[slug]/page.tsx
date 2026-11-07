@@ -76,11 +76,19 @@ export default async function BlogSlugPage({ params }: Props) {
     ...(post.keywords ? { keywords: post.keywords.join(", ") } : {}),
     image: `https://dinamica.pe${post.imageUrl}`,
     datePublished: post.publishedAt,
-    author: {
-      "@type": "Organization",
-      name: "DINAMICA SERVICIO DE LIMPIEZA SAC",
-      url: "https://dinamica.pe",
-    },
+    author: [
+      {
+        "@type": "Person",
+        name: "Charlie Lingán",
+        jobTitle: "Administrador en DINÁMICA",
+        url: "https://charlielingan.com/es",
+      },
+      {
+        "@type": "Organization",
+        name: "DINAMICA SERVICIO DE LIMPIEZA SAC",
+        url: "https://dinamica.pe",
+      },
+    ],
     publisher: {
       "@type": "Organization",
       name: "DINAMICA SERVICIO DE LIMPIEZA SAC",
@@ -204,8 +212,67 @@ export default async function BlogSlugPage({ params }: Props) {
                 dangerouslySetInnerHTML={{ __html: cleanHtml }}
               />
 
+              {/* Ficha de Administración Ejecutiva y Ecosistema Corporativo */}
+              <div className="mt-10 rounded-2xl border border-gray-200 bg-gray-50/80 p-6 shadow-sm">
+                <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4 pb-4 border-b border-gray-200/80">
+                  <div>
+                    <span className="text-xs font-bold uppercase tracking-wider text-primary">
+                      Administración y Supervisión Corporativa
+                    </span>
+                    <h3 className="text-base font-extrabold text-gray-900 mt-0.5">
+                      <a
+                        href="https://charlielingan.com/es"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="hover:text-primary transition-colors"
+                      >
+                        Charlie Lingán — Administrador en DINÁMICA
+                      </a>
+                    </h3>
+                    <p className="text-xs text-gray-500 mt-1">
+                      DINAMICA SERVICIO DE LIMPIEZA S.A.C. (RUC 20612233161) · Especialistas en Oficinas Corporativas, Embajadas y Centros Empresariales
+                    </p>
+                  </div>
+                  <a
+                    href="https://charlielingan.com/es/estrategias/administracion-moderna-en-facility-management-caso-dinamica-limpieza-corporativa"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="inline-flex items-center gap-1.5 rounded-xl bg-white border border-gray-200 px-3.5 py-2 text-xs font-bold text-gray-800 hover:border-primary hover:text-primary transition"
+                  >
+                    Ver Modelo Operativo ↗
+                  </a>
+                </div>
+                <div className="mt-4 pt-1 flex flex-wrap items-center gap-2.5 text-xs text-gray-600">
+                  <span className="font-bold text-gray-800">Grupo &amp; Respaldo Corporativo:</span>
+                  <a
+                    href="https://proflimsa.pe/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="rounded-lg bg-white border border-gray-200 px-3 py-1.5 font-semibold text-gray-700 hover:border-primary hover:text-primary transition"
+                  >
+                    🏭 PROFLIMSA — Limpieza Industrial y Plantas (+33 años) ↗
+                  </a>
+                  <a
+                    href="https://carloslingan.pe/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="rounded-lg bg-white border border-gray-200 px-3 py-1.5 font-semibold text-gray-700 hover:border-primary hover:text-primary transition"
+                  >
+                    ⚖️ Carlos Lingan &amp; Asociados — Firma de Auditoría (desde 1978) ↗
+                  </a>
+                  <a
+                    href="https://charlielingan.com/es"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="rounded-lg bg-white border border-gray-200 px-3 py-1.5 font-semibold text-gray-700 hover:border-primary hover:text-primary transition"
+                  >
+                    💼 CharlieLingan.com ↗
+                  </a>
+                </div>
+              </div>
+
               {/* CTA Banner inside article */}
-              <div className="mt-14 rounded-2xl bg-gradient-to-br from-primary-dark to-primary p-8 sm:p-10 text-center text-white shadow-lg">
+              <div className="mt-10 rounded-2xl bg-gradient-to-br from-primary-dark to-primary p-8 sm:p-10 text-center text-white shadow-lg">
                 <h3 className="text-2xl font-extrabold">
                   ¿Necesitas servicio de limpieza profesional para tu oficina?
                 </h3>
