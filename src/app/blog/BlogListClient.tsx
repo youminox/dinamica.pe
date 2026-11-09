@@ -1,7 +1,6 @@
 "use client";
 
-import { useState, useEffect, Suspense } from "react";
-import { useSearchParams } from "next/navigation";
+import { useState, useEffect } from "react";
 import Link from "next/link";
 import {
   BLOG_POSTS,
@@ -9,18 +8,17 @@ import {
   type BlogPost,
 } from "@/content/blog-posts";
 
-function BlogListInner() {
-  const searchParams = useSearchParams();
-  const initialCat = searchParams.get("categoria") || "all";
-  const [selectedCategory, setSelectedCategory] = useState<string>(initialCat);
+export default function BlogListClient() {
+  const [selectedCategory, setSelectedCategory] = useState<string>("all");
   const [searchQuery, setSearchQuery] = useState<string>("");
 
   useEffect(() => {
-    const cat = searchParams.get("categoria");
+    const params = new URLSearchParams(window.location.search);
+    const cat = params.get("categoria");
     if (cat && BLOG_CATEGORIES[cat]) {
       setSelectedCategory(cat);
     }
-  }, [searchParams]);
+  }, []);
 
   const filteredPosts = BLOG_POSTS.filter((post: BlogPost) => {
     const matchesCat =
@@ -154,19 +152,5 @@ function BlogListInner() {
         </div>
       )}
     </div>
-  );
-}
-
-export default function BlogListClient() {
-  return (
-    <Suspense
-      fallback={
-        <div className="py-20 text-center text-gray-400">
-          Cargando artículos...
-        </div>
-      }
-    >
-      <BlogListInner />
-    </Suspense>
   );
 }

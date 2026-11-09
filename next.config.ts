@@ -1,4 +1,5 @@
 import type { NextConfig } from "next";
+import { BLOG_POSTS } from "./src/content/blog-posts";
 
 const nextConfig: NextConfig = {
   images: {
@@ -9,7 +10,47 @@ const nextConfig: NextConfig = {
   trailingSlash: true,
 
   async redirects() {
+    // 1-to-1 permanent redirects for the 36 migrated WordPress articles
+    const migratedPostRedirects = BLOG_POSTS.filter(
+      (p) =>
+        p.categorySlug !== "distritos-de-lima" &&
+        p.categorySlug !== "ciudades-del-peru"
+    ).map((p) => ({
+      source: `/${p.categorySlug}/${p.slug}/`,
+      destination: `/blog/${p.slug}/`,
+      permanent: true,
+    }));
+
     return [
+      ...migratedPostRedirects,
+
+      // Legacy WordPress sitemaps -> new dynamic sitemap.xml
+      {
+        source: "/wp-sitemap.xml",
+        destination: "/sitemap.xml",
+        permanent: true,
+      },
+      {
+        source: "/sitemap_index.xml",
+        destination: "/sitemap.xml",
+        permanent: true,
+      },
+      {
+        source: "/post-sitemap.xml",
+        destination: "/sitemap.xml",
+        permanent: true,
+      },
+      {
+        source: "/page-sitemap.xml",
+        destination: "/sitemap.xml",
+        permanent: true,
+      },
+      {
+        source: "/category-sitemap.xml",
+        destination: "/sitemap.xml",
+        permanent: true,
+      },
+
       // ─────────────────────────────────────────────────────────────────────
       // ANTIGUAS CATEGORÍAS DE WORDPRESS (serviciodelimpiezaindustrialenper)
       // Redirecciones 301 permanentes hacia servicios o blog

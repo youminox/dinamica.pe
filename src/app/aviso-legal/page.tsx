@@ -9,8 +9,8 @@ export const metadata: Metadata = {
     canonical: "https://dinamica.pe/aviso-legal/",
   },
   robots: {
-    index: false,
-    follow: false,
+    index: true,
+    follow: true,
   },
 };
 

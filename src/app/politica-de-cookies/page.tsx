@@ -9,8 +9,8 @@ export const metadata: Metadata = {
     canonical: "https://dinamica.pe/politica-de-cookies/",
   },
   robots: {
-    index: false,
-    follow: false,
+    index: true,
+    follow: true,
   },
 };
 
